@@ -1,1 +1,1 @@
-# my_project
+http://com17.on.kg/askat/index.html
