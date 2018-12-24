@@ -1,0 +1,126 @@
+.item{
+    text-align: left;
+    font-stretch: semi-expanded;
+    font-family:Cambria;
+}
+.container{
+    margin-top: 10px;
+}
+.item:hover{
+    background-color:#d3d3d3;
+}
+.nav-item{
+    color: red;
+}
+@media (min-width: 800px) {
+.atlrank{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-family:"Bookman Old Style";
+    margin: 40px 0 20px 0;
+}}
+.num{
+    float: left;
+    font-weight: 700;
+    font-stretch: ultra-condensed;
+    margin-right: 30px;
+}
+.champ{
+    font-weight: bold;
+    text-align: left;
+
+}
+.champrank {
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font-weight: 500;
+    font-stretch: ultra-condensed;
+    display: flex;
+    justify-content: left;
+    margin: 0 0 10px 0;
+    color: #778899;
+}
+.division{
+    font-size: 15px;
+    font-weight: 700;
+    font-stretch: initial;
+    display: flex;
+    justify-content: left;
+    margin: 30px 0 0 0;
+    color: #ff0000;
+}
+footer {
+    width: 100%;
+    height: auto;
+    background-color: #000000;
+    margin: 0 auto;
+    text-align: center;
+}
+.ufclogo{
+    margin: 40px 0 10px 0;
+}
+.logo{
+    margin: 10px 0 10px 0;
+}
+.copyright{
+    font-size: 18px;
+}
+@media (min-width: 800px){
+.blog-container{
+    max-width: 100%;
+    background: #fafafa;
+    border-radius: 5px;
+    box-shadow: rgba(0,0,0,0.2) 0 4px  2px -2px;
+    font-weight: 100;
+    margin: 48px auto;
+    width: 50rem
+}}
+.blog-container :hover{
+    border-color: #002752;
+    color: #ff0000;
+    text-decoration: none;
+}
+.blog-cover{
+    background-size: cover;
+    border-radius: 20px 20px 20px 20px;
+    height: 15rem;
+    box-shadow: inset rgba(0,0,0,0.2) 0 64px 16px;
+}
+.blog-body{
+    margin: 0 auto;
+    width: 80%;
+}
+.blog-title h1 a{
+    color:#333;
+    font-weight: 100;
+}
+.blog-text{
+}
+.dataCard{
+    color:#ff0000;
+    font-weight: 600;
+}
+.placeCard{
+    color: #5a6268;
+    font-weight: 300;
+}
+.btn-top{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+    z-index: 99;
+    border: none;
+    outline: none;
+    background-color: #2ecc71;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 10px;
+}
+.btn-top:hover {
+    background-color: #27ae60;
+}
